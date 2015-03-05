@@ -1,6 +1,6 @@
 FROM ruby:2.1.5
 MAINTAINER Dmitry Mozzherin
-
+ENV LAST_FULL_REBUILD 2015-03-05
 RUN apt-get install libmysqlclient-dev && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
