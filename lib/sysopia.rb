@@ -1,4 +1,3 @@
-require_relative "../environment"
 require_relative "sysopia/errors"
 require_relative "sysopia/version"
 require_relative "sysopia/stat"
