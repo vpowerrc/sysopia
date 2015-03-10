@@ -14,6 +14,7 @@ gem "sinatra-flash", "~> 0.3"
 gem "sinatra-redirect-with-flash", "~> 0.2"
 gem "haml", "~> 4.0"
 gem "childprocess", "~> 0.5"
+gem "require_all", "~> 1.3"
 
 group :development do
   gem "byebug", "~> 3.5"
